@@ -1,8 +1,8 @@
 import React from "react";
 import { FaDollarSign } from "react-icons/fa";
-import { FaBug } from "react-icons/fa";
 import { FaStoreAlt } from "react-icons/fa";
 import { FaStore } from "react-icons/fa";
+
 function Data() {
   return (
     <div className="main-content">

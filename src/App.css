@@ -115,12 +115,12 @@
 }
 
 .button3 {
-  width: 38px; /* 2.5vmin converted to pixels */
-  line-height: 20px; /* 1vmin converted to pixels */
+  width: 38px;
+  line-height: 20px;
   background-color: #d3d3d3;
   border: none;
-  border-radius: 10px; /* 2vmin converted to pixels */
-  margin-left: 40px; /* 2.5vmin converted to pixels */
+  border-radius: 10px;
+  margin-left: 40px;
   cursor: pointer;
 }
 
