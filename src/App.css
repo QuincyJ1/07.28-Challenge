@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
 }
 
@@ -37,56 +37,198 @@
   }
 }
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
+.item1 {
+  grid-area: header;
+  width: 100%;
+  font-size: 2em;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.item2 {
+  grid-area: menu;
+  width: 170px;
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+  color: #232323;
+}
+.item3 {
+  grid-area: menu2;
+}
+.item4 {
+  grid-area: main;
+}
+.item5 {
+  grid-area: right;
+  border-radius: 0vmin 0vmin 2vmin 0vmin;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "menu header header"
+    "menu menu2 menu2"
+    "menu main right";
+  width: 100%;
   height: 100%;
-  width: 250px;
-  background-color: white;
-  color: grey;
-  padding: 20px;
-  font-size: 0.7em;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.grid-container > div {
+  background-color: #ffffff;
+  padding: 0 16px 16px 10px;
 }
 
-li {
-  padding: 10px 5px;
-  display: flex;
-  align-items: center;
-  line-height: 50px;
-}
-
-span {
-  margin-left: 10px;
-}
-
-.notification {
-  background-color: red;
-  color: white;
-  border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  margin-left: 5px;
-  font-size: 0.5em;
-}
-
-.help-center {
-  margin-top: 40px;
-}
-
-li:hover {
-  transition: all 0.3s;
-  background-color: rgba(128, 128, 128, 0.989);
-  border-radius: 30px;
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 32px;
+  background-color: #ffffff;
+  color: #8a8a8a;
+  text-align: left;
   cursor: pointer;
-  color: #fff;
+}
+
+.button2 {
+  font-size: 0.7em;
+  display: inline-block;
+  width: 18px;
+  line-height: 18px;
+  background-color: #ff3f3f;
+  color: #e6e6e6;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-align: center;
+  margin-bottom: -0.4vmin;
+}
+
+.btn-clr {
+  background-color: #232323;
+  color: #e6e6e6;
+}
+
+.btn-style:hover {
+  background-color: #232323;
+  color: #e6e6e6;
+}
+
+.button3 {
+  width: 38px; /* 2.5vmin converted to pixels */
+  line-height: 20px; /* 1vmin converted to pixels */
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 10px; /* 2vmin converted to pixels */
+  margin-left: 40px; /* 2.5vmin converted to pixels */
+  cursor: pointer;
+}
+
+.button4 {
+  display: inline-block;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 2vmin;
+  margin-left: -1vmin;
+  padding: 0.6vmin 0.6vmin;
+}
+
+.info {
+  width: 140px;
+  line-height: 12px;
+  padding: 0 5px;
+  border: none;
+  border-radius: 6px;
+  text-align: left;
+  margin-top: 12px;
+  float: right;
+}
+
+.arrow {
+  width: 20px;
+  line-height: 10px;
+  border: none;
+
+  margin-top: -3vmin;
+  float: right;
+}
+
+.block {
+  background-color: transparent;
+  color: transparent;
+}
+
+.margin {
+  margin: 2.8vmin 0vmin 2.3vmin 1vmin;
+}
+
+.logo-text {
+  margin: -5.8vmin 0vmin 2.3vmin 4.5vmin;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 1px;
+  margin-top: 142px;
+  padding: 0 5px;
+  background-color: #ffffff;
+  color: #8a8a8a;
+  text-align: left;
+}
+
+.socials {
+  font-size: 8px;
+  font-weight: bold;
+  color: #a8a8a8;
+  margin-top: -2px;
+}
+
+.name {
+  font-size: 10px;
+  font-weight: bold;
+  color: #5f5f5f;
+  margin-top: 1vmin;
+}
+
+.input {
+  font-size: 1.3vmin;
+  font-weight: bold;
+  background-color: #f3f3f3;
+  color: #a8a8a8;
+  border: 1.3vmin solid #f3f3f3;
+  border-radius: 2vmin;
+}
+
+.image {
+  margin: 0vmin 0.8vmin -0.4vmin -1.5vmin;
+}
+
+.image2 {
+  margin: 0vmin 0vmin -0.3vmin -31vmin;
+}
+
+.profile-pic {
+  float: left;
+  margin: 0.5vmin 0.5vmin 0vmin 0vmin;
+}
+
+.image4 {
+  float: right;
+  margin: 1vmin 0vmin 0vmin 0vmin;
+}
+
+.notification-icon {
+  float: right;
+  margin-top: 10px;
+}
+
+.border {
+  width: 3vmin;
+  height: 2.5vmin;
+  color: black;
+  border-right: 0.5vmin solid black;
+  float: right;
+  margin: 2vmin 2vmin 0vmin 0vmin;
 }
