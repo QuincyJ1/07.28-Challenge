@@ -89,7 +89,6 @@
   background-color: #ffffff;
   color: #8a8a8a;
   text-align: left;
-  cursor: pointer;
 }
 
 .button2 {
@@ -201,7 +200,7 @@
   border-radius: 2vmin;
 }
 
-.image {
+.pic {
   margin: 0vmin 0.8vmin -0.4vmin -1.5vmin;
 }
 
