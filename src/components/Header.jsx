@@ -17,7 +17,7 @@ function Header() {
       <div className="border"></div>
       <div className="info">
         <img className="profile-pic" src={icon12} alt="Logo" />
-        <p className="name">Maxie Mon Wachid</p>
+        <p className="username">Maxie Mon Wachid</p>
         <p className="socials">@Maxie Mon Wachid</p>
         <select className="arrow" name="" id=""></select>
       </div>
