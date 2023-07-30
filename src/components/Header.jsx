@@ -5,7 +5,7 @@ import icon13 from "../components/Img/icon13.png";
 
 function Header() {
   return (
-    <div className="item1">
+    <div className="header">
       <input
         className="input"
         type="text"

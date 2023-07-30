@@ -13,7 +13,7 @@ import "../App.css";
 
 function Sidebar() {
   return (
-    <div className="item2">
+    <div className="sidebar">
       <div className="margin">
         <img src={Icon} alt="Logo" />
       </div>

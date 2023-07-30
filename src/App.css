@@ -37,7 +37,7 @@
   }
 }
 
-.item1 {
+.header {
   grid-area: header;
   width: 100%;
   font-size: 2em;
@@ -45,7 +45,7 @@
   text-align: left;
 }
 
-.item2 {
+.sidebar {
   grid-area: menu;
   width: 170px;
   font-size: 1em;
